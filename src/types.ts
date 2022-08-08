@@ -1,4 +1,4 @@
-export interface DesignToken {
+export default interface DesignToken {
   global: Global;
   $themes: any[];
 }

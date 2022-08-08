@@ -1,6 +1,8 @@
 import tokens from './styles/tokens.json';
-import { Root } from './types';
+import { DesignToken } from './types';
 
-const typedTokens: Root = tokens;
+const typedTokens: DesignToken = tokens;
+
+export type Types = DesignToken;
 
 export default typedTokens;
